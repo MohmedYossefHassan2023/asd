@@ -1,0 +1,27 @@
+.hero-main{
+    background: url(../../assets/images/banner-bg.jpg)no-repeat top right/cover;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: calc(var( --distance-primary)/2);
+    padding: var(--pading-primary);
+}
+.hero-Title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+.hero-text{
+    max-width: 500px;
+}
+.hero-Title em{
+    font-style: normal;
+    color:var(--color-primary);
+
+}
+.hero-subTitle{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
